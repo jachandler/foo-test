@@ -2,5 +2,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello Jenkins!")
+	fmt.Printf("Hello Jenkins!"
 }
