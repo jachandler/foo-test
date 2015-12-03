@@ -5,7 +5,7 @@ if [ ! -f "hello-world.bin" ]; then
 	exit -1;
 fi
 
-if [ "$(./hello-world.bin)" != "Hello world!" ]; then
+if [ "$(./hello-world.bin)" != "Hello Jenkins!" ]; then
 	echo 'Failed. Message output was incorrect.';
 	exit -1;
 else
